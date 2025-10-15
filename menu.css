@@ -1,0 +1,83 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #36141c, #f3961c);
+  color: #fff;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.menu-header h1 {
+  font-size: 2rem;
+  color: white;
+}
+
+.back-button {
+  text-decoration: none;
+  color: #36141c;
+  background: #fff;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.back-button:hover {
+  background: #36141c;
+  color: #fff;
+}
+
+.search-box {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#searchInput {
+  width: 300px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.menu-section {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 16px;
+}
+
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.menu-item {
+  background: #fff;
+  color: #36141c;
+  border-radius: 12px;
+  width: 250px;
+  text-align: center;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+.menu-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.menu-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}

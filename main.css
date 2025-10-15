@@ -554,4 +554,35 @@ header .navbar{
     }
 }
 
+/* --- Login & Register buttons --- */
+.navbar .login-btn {
+    background-color: transparent;
+    border: 2px solid var(--secondary-color);
+    color: var(--secondary-color);
+    border-radius: var(--border-radius-m);
+    transition: 0.3s ease;
+}
+
+.navbar .login-btn:hover {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+}
+
+.navbar .register-btn {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    border-radius: var(--border-radius-m);
+    transition: 0.3s ease;
+}
+
+.navbar .register-btn:hover {
+    background-color: transparent;
+    border: 2px solid var(--secondary-color);
+    color: var(--secondary-color);
+}
+.nav-menu {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
 /* 4616 */
