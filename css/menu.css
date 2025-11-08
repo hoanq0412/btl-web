@@ -1,0 +1,183 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #36141c, #f3961c);
+  color: #fff;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.menu-header h1 {
+  font-size: 2rem;
+  color: white;
+}
+
+.back-button {
+  text-decoration: none;
+  color: #36141c;
+  background: #fff;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.back-button:hover {
+  background: #36141c;
+  color: #fff;
+}
+
+.search-box {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#searchInput {
+  width: 300px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.menu-section {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 16px;
+}
+
+.menu-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.menu-item {
+  background: #fff;
+  color: #36141c;
+  border-radius: 12px;
+  width: 250px;
+  text-align: center;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+.menu-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.menu-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.menu-item .price {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #f3961c;
+  transition: all 0.3s ease;
+}
+
+/* Hiệu ứng hover */
+.menu-item:hover .price {
+  color: #36141c;
+  transform: scale(1.2);
+}
+
+.menu-item {
+  position: relative;
+}
+
+.menu-item a.item-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+.tick-btn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #f3961c;
+  color: #fff;
+  font-weight: bold;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+
+.tick-btn:hover {
+  background: #36141c;
+  transform: scale(1.1);
+}
+
+.tick-btn.active {
+  background: #2ecc71; /* màu xanh lá khi đã thêm vào giỏ */
+  transform: scale(1.15);
+}
+
+.cart-summary {
+  margin-left: auto;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  padding: 15px 40px;
+  text-align: center;
+  background: #fff;
+  color: #36141c;
+  padding: 15px 40px;
+  border-radius: 12px;
+  width: fit-content;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+}
+
+.cart-summary .total-text {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.checkout-btn {
+  background: #36141c;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.checkout-btn:hover {
+  background: #f3961c;
+  color: #36141c;
+  transform: scale(1.05);
+}
+
+
